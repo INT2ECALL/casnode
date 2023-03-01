@@ -24,7 +24,7 @@
     "moment": "^2.26.0",
     "pangu": "^4.0.7",
     "rc-collapse": "^2.0.0",
-    "re-resizable": "^6.5.4",
+    "re-resizable": "^6.9.9",
     "react": "^17.0.2",
     "react-codemirror2": "^7.2.1",
     "react-color": "^2.18.1",
