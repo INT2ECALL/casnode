@@ -10,7 +10,7 @@ COPY ./web .
 RUN yarn config set registry https://registry.npmmirror.com
 RUN yarn install && yarn run build
 
-FROM alpine:latest
+FROM alpine:3.18.3
 RUN sed -i 's/https/http/' /etc/apk/repositories
 RUN apk add curl
 LABEL MAINTAINER="https://casnode.org/"
